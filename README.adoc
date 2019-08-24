@@ -22,7 +22,7 @@ all_merge_requests_label = All MRs:
 ----
 
 And the i3blocks config file entry should look like this:
-[source,bash]
+[source,ini]
 ----
 [gitlab]
 command=python <path_i3blocks_gitlab>/mr_state.py $BLOCK_BUTTON
