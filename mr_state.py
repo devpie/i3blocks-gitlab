@@ -84,7 +84,7 @@ def get_open_merge_requests_without_wip(open_merge_requests):
 
 
 def main():
-    config = Config("%s/.i3block-gitlab" % os.environ['HOME'])
+    config = Config("%s/.i3blocks-gitlab" % os.environ['HOME'])
     if len(sys.argv) > 1:
         os.system("%s %s/groups/%s/-/merge_requests &" % (config.web_browser, config.base_url, config.group_name))
     auth_token = get_token()
