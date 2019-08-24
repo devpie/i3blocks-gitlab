@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:3.7.4-stretch
     steps:
       - checkout
-      - run: pip install keyring coverage
+      - run: pip install --user keyring coverage
       - run: python test_mr_state.py
       - run: coverage run --source ./ --omit test_mr_state.py test_mr_state.py
       - run: coverage html
