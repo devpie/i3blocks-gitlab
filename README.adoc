@@ -1,4 +1,4 @@
-= i3blocks-gitlab
+= i3blocks-gitlab image:https://circleci.com/gh/devpie/i3blocks-gitlab.svg?style=svg["CircleCI", link="https://circleci.com/gh/devpie/i3blocks-gitlab"]
 This is just a simple tool for displaying the merge request count and the approved merge request count of a group within i3blocks.
 
 == Installation instructions
